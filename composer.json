@@ -2,7 +2,20 @@
     "name": "simplesamlphp/simplesamlphp-module-examplecomposer",
     "description": "An example SimpleSAMLphp module installable through Composer.",
     "type": "simplesamlphp-module",
+    "autoload": {
+        "psr-4": {
+            "SimpleSAML\\Module\\examplecomposer\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimpleSAML\\Test\\Utils\\": "vendor/simplesamlphp/simplesamlphp/tests/Utils"
+        }
+    },
     "require": {
-        "simplesamlphp/composer-module-installer": "~1.0"
+        "simplesamlphp/composer-module-installer": "~1.1"
+    },
+    "require-dev": {
+        "simplesamlphp/simplesamlphp-test-framework": "^0.2"
     }
 }

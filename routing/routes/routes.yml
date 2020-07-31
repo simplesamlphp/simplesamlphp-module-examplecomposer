@@ -1,0 +1,3 @@
+examplecomposer-example:
+    path:       /helloworld
+    defaults:   { _controller: 'SimpleSAML\Module\examplecomposer\Controller\ExampleController::example' }
