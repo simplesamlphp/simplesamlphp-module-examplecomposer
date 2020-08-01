@@ -16,7 +16,7 @@ Once it is installed, you should enable to module in the config.php file. Look f
 You can access the hello-world script at: `/simplesaml/module.php/examplecomposer/helloworld`
 
 See the [SimpleSAMLphp Composer module installer](https://github.com/simplesamlphp/composer-module-installer)
-documentation for more information about creating modules installablethrough Composer.
+documentation for more information about creating modules installable through Composer.
 
 
 Relevant files
