@@ -26,7 +26,6 @@ class ExampleControllerTest extends TestCase
 
     /**
      * Set up for each test.
-     * @return void
      */
     protected function setUp(): void
     {
@@ -46,7 +45,6 @@ class ExampleControllerTest extends TestCase
 
     /**
      * Test that a valid requests results in a page saying hello to the world
-     * @return void
      */
     public function testExample(): void
     {
