@@ -26,7 +26,6 @@
         <MissingClosureParamType errorLevel="info" />
         <MissingParamType errorLevel="info" />
         <UnusedClass errorLevel="info" />
-        <PossiblyUnusedMethod errorLevel="info" />
 
         <!-- Ignore UnresolvableInclude on CLI-scripts -->
         <UnresolvableInclude>
