@@ -55,7 +55,6 @@ class ExampleControllerTest extends TestCase
 
         $c = new Controller\ExampleController($this->config, $this->session);
 
-        /** @var \Symfony\Component\HttpFoundation\Response $response */
         $response = $c->example($request);
 
         // Validate response
