@@ -19,10 +19,10 @@ use Symfony\Component\HttpFoundation\Response;
 class ExampleController
 {
     /** @var \SimpleSAML\Configuration */
-    protected $config;
+    protected Configuration $config;
 
     /** @var \SimpleSAML\Session */
-    protected $session;
+    protected Session $session;
 
 
     /**
