@@ -18,7 +18,7 @@
         "simplesamlphp/composer-module-installer": "~1.1"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp": "dev-master",
-        "simplesamlphp/simplesamlphp-test-framework": "^1.1.0"
+        "simplesamlphp/simplesamlphp": "^2.0.0-beta.2",
+        "simplesamlphp/simplesamlphp-test-framework": "^1.1.4"
     }
 }
