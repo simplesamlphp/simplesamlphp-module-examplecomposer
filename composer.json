@@ -4,5 +4,11 @@
     "type": "simplesamlphp-module",
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "simplesamlphp/composer-module-installer": true
+        }
     }
 }
