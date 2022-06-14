@@ -4,7 +4,7 @@
     "type": "simplesamlphp-module",
     "autoload": {
         "psr-4": {
-            "SimpleSAML\\Module\\examplecomposer\\": "lib/"
+            "SimpleSAML\\Module\\examplecomposer\\": "src/"
         }
     },
     "autoload-dev": {
@@ -15,11 +15,11 @@
     "require": {
         "php": ">=7.4 || ^8.0",
 
-        "simplesamlphp/composer-module-installer": "~1.1"
+        "simplesamlphp/composer-module-installer": "~1.1.8"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp": "^2.0.0-beta.2",
-        "simplesamlphp/simplesamlphp-test-framework": "^1.1.4"
+        "simplesamlphp/simplesamlphp": "^2.0.0-beta.11",
+        "simplesamlphp/simplesamlphp-test-framework": "^1.2.1"
     },
     "config": {
         "allow-plugins": {
