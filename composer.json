@@ -15,10 +15,10 @@
     "require": {
         "php": ">=7.4 || ^8.0",
 
-        "simplesamlphp/composer-module-installer": "~1.1.8"
+        "simplesamlphp/composer-module-installer": "~1.3.2"
     },
     "require-dev": {
-        "simplesamlphp/simplesamlphp": "^2.0.0-beta.11",
+        "simplesamlphp/simplesamlphp": "^2.0.0-rc2",
         "simplesamlphp/simplesamlphp-test-framework": "^1.2.1"
     },
     "config": {
