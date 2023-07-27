@@ -36,4 +36,4 @@ This module consists of the following files:
 
 - `composer.json`: The composer configuration file for this module.
 - `README.md`: This document describing the module.
-- `lib/Controller/ExampleController.php`: Controller outputting `Hello World!` when executed.
+- `src/Controller/ExampleController.php`: Controller outputting `Hello World!` when executed.
