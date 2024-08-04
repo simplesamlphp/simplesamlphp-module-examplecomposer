@@ -37,7 +37,7 @@ class ExampleController
      */
     public function __construct(
         Configuration $config,
-        Session $session
+        Session $session,
     ) {
         $this->config = $config;
         $this->session = $session;
@@ -55,7 +55,7 @@ class ExampleController
         $response = new Response(
             'Hello World!',
             Response::HTTP_OK,
-            ['content-type' => 'text/plain']
+            ['content-type' => 'text/plain'],
         );
 
         return $response;

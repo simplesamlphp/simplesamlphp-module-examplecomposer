@@ -36,7 +36,7 @@ class ExampleControllerTest extends TestCase
                 'module.enable' => ['examplecomposer' => true],
             ],
             '[ARRAY]',
-            'simplesaml'
+            'simplesaml',
         );
 
         $this->session = Session::getSessionFromRequest();
@@ -50,7 +50,7 @@ class ExampleControllerTest extends TestCase
     {
         $request = Request::create(
             '/example',
-            'GET'
+            'GET',
         );
 
         $c = new Controller\ExampleController($this->config, $this->session);
