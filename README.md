@@ -1,6 +1,6 @@
 # SimpleSAMLphp Composer module example
 
-![Build Status](https://github.com/simplesamlphp/simplesamlphp-module-examplecomposer/workflows/CI/badge.svg?branch=master)
+![Build Status](https://github.com/simplesamlphp/simplesamlphp-module-examplecomposer/actions/workflows/php.yml/badge.svg)
 [![Coverage Status](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-examplecomposer/branch/master/graph/badge.svg)](https://codecov.io/gh/simplesamlphp/simplesamlphp-module-examplecomposer)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-examplecomposer/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/simplesamlphp/simplesamlphp-module-examplecomposer/?branch=master)
 [![Type Coverage](https://shepherd.dev/github/simplesamlphp/simplesamlphp-module-examplecomposer/coverage.svg)](https://shepherd.dev/github/simplesamlphp/simplesamlphp-module-examplecomposer)
