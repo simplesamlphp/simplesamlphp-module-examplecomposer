@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
  *
  * @package SimpleSAML\Test
  */
-class ExampleControllerTest extends TestCase
+final class ExampleControllerTest extends TestCase
 {
     /** @var \SimpleSAML\Configuration */
     protected Configuration $config;
