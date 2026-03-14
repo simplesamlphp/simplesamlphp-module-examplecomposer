@@ -2,6 +2,7 @@
     "name": "simplesamlphp/simplesamlphp-module-examplecomposer",
     "description": "An example SimpleSAMLphp module installable through Composer.",
     "type": "simplesamlphp-module",
+    "license": "LGPL-2.1-or-later",
     "autoload": {
         "psr-4": {
             "SimpleSAML\\Module\\examplecomposer\\": "src/"
